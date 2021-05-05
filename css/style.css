@@ -371,7 +371,7 @@ template {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 40px;
-  padding-button: 40px;
+  padding-bottom: 40px;
 }
 
 .header__search {
