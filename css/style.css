@@ -476,15 +476,6 @@ template {
   margin-left: 18px;
 }
 
-@media (max-width: 1920px) {
-  .container {
-    max-width: 1700px;
-  }
-  .navbar-menu__link {
-    font-size: 18px;
-  }
-}
-
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
