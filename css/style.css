@@ -641,6 +641,9 @@ template {
   .navbar-menu__link {
     font-size: 10px;
   }
+  .hotel {
+    padding-top: 0;
+  }
   .hotel-name {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
