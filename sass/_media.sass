@@ -30,31 +30,39 @@
     width: 92%
   .search
     &__input
-      width: 250px
+      max-width: 340px
   .navbar
     &__search
-      margin-left: 25px 
+      margin-left: 70px 
       margin-right: auto   
     &-menu
       padding: 20px 0
       &__link
         font-size: 10px
 
-  
 
 @media (max-width: 576px)  
-  .logo
-    width: 99px  
+  .container
+    max-width: 90%
+  .navbar
+    &__search
+      margin-left: 20px 
+      margin-right: auto
+    &__user
+      display: none
+  
   
 
 @media (min-width: 320px) and (max-width: 480px)
   .container
-    width: 85%
+    width: 87%
+  .logo
+    width: 99px
   .navbar
-    &-menu, &__search, &__user
+    &-menu, &__search
       display: none
     &-top
-      padding: 28px 0
+      padding: 25px 0
   .menu
     &-button
       display: flex
