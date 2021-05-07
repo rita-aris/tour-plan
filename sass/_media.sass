@@ -39,7 +39,25 @@
       padding: 20px 0
       &__link
         font-size: 10px
-
+  .hotel
+    &-name
+      flex-basis: 100%
+    &-info
+      &__name
+          margin-top: 10px
+          margin-bottom: 0
+      &__text
+        width: 100%
+      &__rating
+        display: none
+      &__offer
+        order: -1
+        margin-left: 0
+    &-wrapper
+      justify-content: space-between
+  .stars
+    flex-basis: auto
+    
 
 @media (max-width: 576px)  
   .container
@@ -49,8 +67,7 @@
       margin-left: 20px 
       margin-right: auto
     &__user
-      display: none
-  
+      display: none 
   
 
 @media (min-width: 320px) and (max-width: 480px)
