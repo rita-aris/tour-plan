@@ -478,7 +478,7 @@ template {
 }
 
 .hotel {
-  padding-top: 23px;
+  padding-top: 20px;
   padding-bottom: 70px;
 }
 
@@ -506,6 +506,8 @@ template {
 
 .hotel-info__discription {
   margin: 0;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .hotel-name {
@@ -533,6 +535,9 @@ template {
 .stars {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .offer {
