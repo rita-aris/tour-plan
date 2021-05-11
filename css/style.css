@@ -943,7 +943,11 @@ template {
     margin-bottom: 20px;
   }
   .booking {
+    height: 210px;
     margin-bottom: 20px;
+  }
+  .map {
+    height: 173px;
   }
 }
 
