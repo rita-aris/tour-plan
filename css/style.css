@@ -939,6 +939,9 @@ template {
     width: 340px;
     height: 200px;
   }
+  .hotel__slider {
+    margin-bottom: 20px;
+  }
   .booking {
     margin-bottom: 20px;
   }
