@@ -23,6 +23,7 @@
     max-width: 731px
     margin: auto
   &-title
+    max-width: 250px
     color: $light
     font-style: normal
     font-weight: 300
@@ -34,10 +35,10 @@
       line-height: 45px
       text-transform: uppercase
 
-.subscribe
+.subscribe  
   position: relative
   width: 350px
-  height: 55px
+  min-height: 55px
   border-radius: 4px
   overflow: hidden
   &__input
@@ -52,7 +53,9 @@
     font-size: 14px
     line-height: 18px
   &__button
+    display: block
     position: absolute
+    max-width: 110px
     min-width: 65px
     height: 100%
     top: 0
