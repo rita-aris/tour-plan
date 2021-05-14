@@ -1218,6 +1218,7 @@ template {
   }
   .activities__card {
     margin-bottom: 20px;
+    padding-right: 110px;
   }
   .card {
     width: 340px;
@@ -1414,6 +1415,11 @@ template {
   }
   .navbar-top {
     padding: 25px 0;
+  }
+  .card-order {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
   }
 }
 /*# sourceMappingURL=style.css.map */
