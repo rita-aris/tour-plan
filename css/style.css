@@ -1563,6 +1563,7 @@ template {
   }
   .navbar-bottom--visible {
     display: block;
+    overflow-y: scroll;
   }
   .navbar-menu {
     -webkit-box-orient: vertical;
