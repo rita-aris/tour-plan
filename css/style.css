@@ -1552,6 +1552,10 @@ template {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .navbar__search {
+    margin-right: 58px;
+    margin-bottom: 32px;
+  }
   .navbar-bottom {
     display: none;
     position: fixed;
@@ -1559,7 +1563,6 @@ template {
     right: 0;
     left: 0;
     bottom: 0;
-    padding-top: 30px;
   }
   .navbar-bottom--visible {
     display: block;
@@ -1852,7 +1855,7 @@ template {
     padding: 25px 0;
   }
   .search__input {
-    width: 100%;
+    width: 243px;
   }
   .card-order {
     -webkit-box-ordinal-group: 0;
