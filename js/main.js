@@ -38,6 +38,7 @@ $(document).ready(function () {
 
   var modalButton = $("[data-toggle=modal]");
   var closeModalButton = $(".modal__close");
+  var closeModalButtonEsc = $(".modal__close");
   modalButton.on("click", openModal);
   closeModalButton.on("click", closeModal);
 
