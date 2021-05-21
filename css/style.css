@@ -1799,6 +1799,19 @@ template {
     width: 48%;
     height: 255px;
   }
+  .modal__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .modal__dialog {
+    width: 350px;
+    padding: 33px 50px;
+  }
+  .modal__button {
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1939,6 +1952,9 @@ template {
   .search__input {
     width: 243px;
   }
+  .booking__button {
+    padding: 0;
+  }
   .card-order {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
@@ -1985,6 +2001,10 @@ template {
   }
   .footer__disclaimer-item {
     margin-right: 0;
+  }
+  .modal__dialog {
+    width: 100%;
+    padding: 33px 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
