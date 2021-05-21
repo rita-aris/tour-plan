@@ -1807,7 +1807,11 @@ template {
   }
   .modal__dialog {
     width: 350px;
+    height: 90%;
     padding: 33px 50px;
+  }
+  .modal__dialog--visible {
+    overflow-y: scroll;
   }
   .modal__button {
     margin-bottom: 15px;
