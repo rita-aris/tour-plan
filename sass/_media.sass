@@ -15,7 +15,8 @@
 
   .footer
     &__input
-      flex-basis: 100%
+      &-group
+        flex-basis: 100%
 
 @media (max-width: 992px)
   .container, .newsletter-wrapper
@@ -113,7 +114,8 @@
       grid-column: span 3
       justify-self: center
     &__input
-      flex-basis: 48%
+      &-group
+        flex-basis: 48%
     &__bottom
       grid-column: span 8
     &__disclaimer  
@@ -341,7 +343,8 @@
         grid-row: 7
         grid-column: 1
     &__input
-      flex-basis: 100%
+      &-group
+        flex-basis: 100%
     &__bottom
       flex-direction: column
       grid-row: 8
@@ -396,7 +399,7 @@
       flex-basis: 100%
       margin-bottom: 15px
       order: -1
-    &__input, &__message
+    &__input-group, &__message
       order: -2
     &__disclaimer
       justify-content: space-between
