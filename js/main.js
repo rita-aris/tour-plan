@@ -38,9 +38,10 @@ $(document).ready(function () {
 
   var modalButton = $("[data-toggle=modal]");
   var closeModalButton = $(".modal__close");
-  var closeModalButtonEsc = $(".modal__close");
   modalButton.on("click", openModal);
   closeModalButton.on("click", closeModal);
+
+  document.addEventListener("keyup", closeModal);
 
   function openModal() {
     var modalOverlay = $(".modal__overlay");
@@ -49,6 +50,7 @@ $(document).ready(function () {
     modalDialog.addClass("modal__dialog--visible");
     $("body").css("overflow", "hidden");
   }
+
   function closeModal(event) {
     $("body").css("overflow", "auto");
     if (event.key === "Escape" || event.type === "click") {
