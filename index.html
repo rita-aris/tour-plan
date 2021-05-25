@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -141,7 +142,12 @@
                 <img src="img/star.svg" alt="star" />
               </div>
               <h1 class="hotel-name hotel-info__name">Grand Hilton Hotel</h1>
-              <span class="offer hotel-info__offer">Flash Offer</span>
+              <span
+                class="offer hotel-info__offer"
+                data-aos="fade-down"
+                data-aos-duration="500"
+                >Flash Offer</span
+              >
             </div>
             <p class="hotel-discription hotel-info__discription">
               Half-Board/ All Inclusive + Complimentary Activities + Child Stays
@@ -267,11 +273,20 @@
     <!-- /.hotel -->
     <section class="newsletter">
       <div class="newsletter-wrapper">
-        <h2 class="newsletter-title newsletter__title">
+        <h2
+          class="newsletter-title newsletter__title"
+          data-aos="zoom-in-down"
+          data-aos-duration="500"
+        >
           subscribe to our
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
-        <form action="#" class="subscribe newsletter__search">
+        <form
+          action="#"
+          class="subscribe newsletter__search"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+        >
           <input
             type="text"
             class="subscribe__input"
@@ -405,7 +420,12 @@
       <div class="container">
         <h2 class="activities__title">Other Activities</h2>
         <div class="activities-wrapper">
-          <div class="card card-order activities__card">
+          <div
+            class="card card-order activities__card"
+            data-aos="fade-up"
+            data-aos-duration="200"
+            data-aos-anchor-placement="bottom-bottom"
+          >
             <img
               src="img/activity-1.jpg"
               alt="The curious corner of chamarel"
@@ -415,7 +435,12 @@
             <button class="card__button">Book Now</button>
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-anchor-placement="bottom-bottom"
+          >
             <img
               src="img/activity-2.jpg"
               alt="Gymkhana club golf course"
@@ -425,7 +450,12 @@
             <button class="card__button">Book Now</button>
           </div>
           <!-- /.card -->
-          <div class="card card-order activities__card">
+          <div
+            class="card card-order activities__card"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-anchor-placement="bottom-bottom"
+          >
             <img
               src="img/activity-3.jpg"
               alt="Tamarind falls hiking trip - full day"
@@ -435,7 +465,12 @@
             <button class="card__button">Book Now</button>
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+            data-aos-anchor-placement="bottom-bottom"
+          >
             <img
               src="img/activity-4.jpg"
               alt="The blue marine discovery quest"
@@ -692,6 +727,7 @@
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
