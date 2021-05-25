@@ -542,6 +542,21 @@ template {
   padding-bottom: 70px;
 }
 
+.hotel__home {
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: #EC1F46;
+  padding: 18px 66px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
 .hotel-info {
   display: -webkit-box;
   display: -ms-flexbox;
