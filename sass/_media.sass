@@ -262,7 +262,15 @@
 
   .card
     width: 48%
-    height: 255px    
+    height: 255px   
+
+  .footer
+    &__bottom
+      justify-content: space-between
+      justify-self: stretch
+      grid-column: 1 / 8
+    &__disclaimer
+      margin-right: 0  
 
   .modal
     &__form
@@ -357,10 +365,7 @@
       &-image
         width: 136px
         height: 22px
-      &-item
-        flex-basis: 100%
-
-      
+            
 
 @media (min-width: 320px) and (max-width: 480px)
   .container
@@ -405,6 +410,7 @@
       justify-content: space-between
       &-item
         margin-right: 0
+        
 
   .modal
     &__dialog
