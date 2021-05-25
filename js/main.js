@@ -69,7 +69,7 @@ $(document).ready(function () {
       messages: {
         name: {
           required: "Please specify your name",
-          minlength: "Your name must be at least two letters",
+          minlength: "Your name must be at least 2 letters",
         },
         email: {
           required: "We need your email address to contact you",
@@ -77,6 +77,7 @@ $(document).ready(function () {
         },
         phone: {
           required: "Phone is required",
+          minlength: "Your phone must contain 11 digits",
         },
       },
     });
