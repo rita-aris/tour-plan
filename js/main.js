@@ -29,6 +29,7 @@ $(document).ready(function () {
       nextEl: ".reviews-slider__button--next",
       prevEl: ".reviews-slider__button--prev",
     },
+    autoHeight: true,
   });
 
   var menuButton = $(".menu-button");
