@@ -19,6 +19,7 @@
     left: 50%
     transform: translate(-50%, -50%)
     max-width: 478px
+    height: 90%
     background-color: $dark
     color: $light
     border-radius: 8px
@@ -30,6 +31,7 @@
     &--visible
       visibility: visible
       opacity: 1
+      overflow-y: scroll
   &__close
     position: absolute
     right: 18px
@@ -47,7 +49,10 @@
     margin-bottom: 0
   &__input
     width: 100%
-    margin-top: 15px
+    &-group
+      position: relative
+      margin-top: 15px
+      flex-basis: 100%
   &__message
     width: 100%
     margin-top: 15px
