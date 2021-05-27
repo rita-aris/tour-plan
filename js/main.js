@@ -41,7 +41,7 @@ $(document).ready(function () {
   var closeModalButton = $(".modal__close");
   modalButton.on("click", openModal);
   closeModalButton.on("click", closeModal);
-
+  $(".modal__overlay").on("click", closeModal);
   document.addEventListener("keyup", closeModal);
 
   function openModal() {
