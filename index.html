@@ -286,16 +286,20 @@
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
         <form
-          action="#"
-          class="subscribe newsletter__search"
+          action="send.php"
+          method="POST"
+          class="form subscribe newsletter__search"
           data-aos="zoom-in-down"
           data-aos-duration="1000"
         >
           <input
-            type="text"
+            type="email"
             class="subscribe__input"
             placeholder="Your email address"
+            name="email"
+            required
           />
+
           <button class="subscribe__button">Send</button>
         </form>
       </div>
