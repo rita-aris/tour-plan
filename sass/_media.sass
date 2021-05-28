@@ -14,24 +14,28 @@
     min-height: 230px
 
   .footer
+    &__additional
+      width: 250px
     &__input
       &-group
         flex-basis: 100%
 
 @media ( min-width: 992px )
-
   button:hover
     background-color: $hover
   .hotel-slider__button, .reviews-slider__button
     &:hover
-      background-color: transparent
-    
+      background-color: transparent    
   .hotel
     &__home:hover
       text-decoration: none
       background-color: $hover
   a:hover 
     text-decoration: underline  
+  .footer__link--hover
+    &:hover
+      background-color: $light
+      border-radius: 50%
   
 
 @media (max-width: 992px)
@@ -153,7 +157,10 @@
       flex-direction: column
     &__dialog
       width: 350px
+      max-height: 95%
       padding: 33px 50px 
+      &--visible
+        overflow-y: auto
     &__input
       &-group
         width: 100%
@@ -311,9 +318,12 @@
   .footer
     &-wrapper
       grid-template-columns: repeat(5, 1fr)
+      grid-column-gap: 60px
+    &__categories
+      grid-column: span 3
     &__legal
       grid-row: 3
-      grid-column: 1
+      grid-column: 1 / 3
     &__contacts
       &-details
         grid-row: 4
@@ -327,10 +337,7 @@
       justify-self: stretch
       grid-column: 1 / 8
     &__disclaimer
-      margin-right: 0  
-
-
-  
+      margin-right: 0    
          
 
 @media (max-width: 576px)  
@@ -341,6 +348,13 @@
 
   .hotel
     padding-bottom: 40px
+    &-slider
+      &__button
+        background-size: 4px
+        &--next
+          right: 0
+        &--prev
+          left: 0
 
   .newsletter
     padding: 76px 0 83px 0
@@ -443,7 +457,12 @@
 
   .booking
     &__button
-      padding: 0  
+      padding: 0 
+
+  .reviews
+    &-slider
+      &__text
+        text-align: left 
 
   .card
     &-order
