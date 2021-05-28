@@ -300,12 +300,26 @@
     min-height: 255px   
 
   .footer
+    &-wrapper
+      grid-template-columns: repeat(5, 1fr)
+    &__legal
+      grid-row: 3
+      grid-column: 1
+    &__contacts
+      &-details
+        grid-row: 4
+    &__contacts
+      &-form
+        grid-row: 5  
+
     &__bottom
+      grid-row: 6
       justify-content: space-between
       justify-self: stretch
       grid-column: 1 / 8
     &__disclaimer
       margin-right: 0  
+
 
   
          
