@@ -21,7 +21,7 @@
     <header class="navbar navbar--mobile--fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="#" class="logo">
+          <a href="index.html" class="logo">
             <img
               src="img/horizonal-logo.svg"
               alt="Logo: Best Tour Plan"
@@ -153,11 +153,12 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-wrapper">
-          <img
-            src="img/vertical-logo.svg"
-            alt="Logo: Best Tour Plan"
-            class="logo footer__logo"
-          />
+          <a href="#" class="footer__logo"
+            ><img
+              src="img/vertical-logo.svg"
+              alt="Logo: Best Tour Plan"
+              class="logo"
+          /></a>
           <div class="footer__list footer__categories">
             <h3 class="footer__title">ALL CATEGORIES</h3>
             <ul class="footer__ul">
@@ -271,10 +272,22 @@
                     alt="Icon: Contact Phone"
                   />
                 </div>
-                Tel (business hours) : 269 1500 <br />
-                Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00
-                pm) <br />
-                Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+                <div class="footer__contact">
+                  Tel (business hours) :
+                  <a class="footer__connect" href="tel:269-1500">269 1500</a>
+                  <br />
+                  Tel (hotline) Monday - Saturday:
+                  <a class="footer__connect" href="tel:52-56-61-38"
+                    >52-56-61-38</a
+                  >
+                  (08:00 am – 20:00 pm)
+                  <br />
+                  Tel (hotline) Sunday:
+                  <a class="footer__connect" href="tel:52-56-61-38"
+                    >52-56-61-38</a
+                  >
+                  (08:00 am – 14:00 pm)
+                </div>
               </li>
               <li class="footer__item footer__item--mb-2">
                 <div class="footer__icon-wrapper">
@@ -284,7 +297,13 @@
                     alt="Icon: Email"
                   />
                 </div>
-                cherly.lawson@example.com
+                <div class="footer__contact">
+                  <a
+                    href="mailto:cherly.lawson@example.com"
+                    class="footer__connect"
+                    >cherly.lawson@example.com</a
+                  >
+                </div>
               </li>
             </ul>
           </div>
