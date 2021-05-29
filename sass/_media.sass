@@ -32,10 +32,9 @@
       background-color: $hover
   a:hover 
     text-decoration: underline  
-  .footer__link--hover
+  .footer__icon--hover
     &:hover
-      background-color: $light
-      border-radius: 50%
+      fill: $light      
   
 
 @media (max-width: 992px)
@@ -348,13 +347,7 @@
 
   .hotel
     padding-bottom: 40px
-    &-slider
-      &__button
-        background-size: 4px
-        &--next
-          right: 0
-        &--prev
-          left: 0
+    
 
   .newsletter
     padding: 76px 0 83px 0
@@ -454,6 +447,12 @@
   .hotel
     &-slider
       height: 179px
+      &__button
+        background-size: 4px
+        &--next
+          right: 0
+        &--prev
+          left: 0
 
   .booking
     &__button
